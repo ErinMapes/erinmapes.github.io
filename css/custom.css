@@ -1,0 +1,15 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+/*For Dribbble*/
+ul.shots li{
+	display:inline-block;
+	float:left;
+	max-width:25%;
+/* 	padding:5px; */
+	}
+ul.shots li img{
+	max-width:25!important
+	}
+	ul.shots li:hover{
+		background:rbga(255, 255, 255, .5)!important;
+	}

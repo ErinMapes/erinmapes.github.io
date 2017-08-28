@@ -252,28 +252,38 @@
         <script src="js/masonry.min.js"></script>
         <script src="js/twitterfetcher.min.js"></script>
         <script src="js/spectragram.min.js"></script>
-  <script src="js/jribbble.min.js"></script>
+        <script src="js/jribbble.min.js"></script>
         <script src="js/ytplayer.min.js"></script>
         <script src="js/countdown.min.js"></script>
         <script src="js/smooth-scroll.min.js"></script>
         <script src="js/parallax.js"></script>
         <script src="js/scripts.js"></script>
         <script>
-    $.jribbble.setToken('b7d3356cc601f9d441010742992d239ca1657430a2f0045b7d6823d2ff0d7569');
+            $.jribbble.setToken('b7d3356cc601f9d441010742992d239ca1657430a2f0045b7d6823d2ff0d7569');
 
-    $.jribbble.users('erinmapes').shots({per_page: 8}).then(function(shots) {
-	     var html = [];
+            $.jribbble.users('erinmapes').shots({per_page: 8}).then(function(shots) {
+        	     var html = [];
 
-      shots.forEach(function(shot) {
-        // See the Dribbble docs for all available shot properties.
-        html.push('<li class="shots--shot">');
-        html.push('<a target=_blank" href="' + shot.html_url + '">');
-        html.push('<img src="' + shot.images.normal + '">');
-        html.push('</a></li>');
-      });
+              shots.forEach(function(shot) {
+                // See the Dribbble docs for all available shot properties.
+                html.push('<li class="shots--shot">');
+                html.push('<a target=_blank" href="' + shot.html_url + '">');
+                html.push('<img src="' + shot.images.normal + '">');
+                html.push('</a></li>');
+              });
 
-      $('.shots').html(html.join(''));
-    });
-  </script>
+              $('.shots').html(html.join(''));
+            });
+          </script>
+          <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-3338520-4', 'auto');
+          ga('send', 'pageview');
+
+        </script>
     </body>
 </html>

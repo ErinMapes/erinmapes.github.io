@@ -33,3 +33,4 @@ ul.shots li img{
     -moz-transition: all 0.3s ease;
     opacity: .9;
 	}
+	.shots--shot a:hover img{opacity:.7;}

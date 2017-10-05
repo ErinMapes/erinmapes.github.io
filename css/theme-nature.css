@@ -414,7 +414,7 @@ span {
   font-weight: 400;
 }
 p.lead {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 28px;
 }
@@ -730,7 +730,7 @@ footer.bg-dark li,
   height: 40px;
   min-width: 150px;
   line-height: 36px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -792,14 +792,17 @@ footer.bg-dark li,
 .btn-white,
 .image-bg .btn,
 .image-bg .btn:visited {
-  color: #fff;
-  border-color: #fff;
+    color: #000;
+    border-color: #fff;
+    background: rgba(265, 265, 265, .8);
 }
+
 .btn-white:hover,
 .image-bg .btn:hover,
 .image-bg .btn:visited:hover {
   background: #fff;
   color: #222;
+  box-shadow:0 0 20px #000;
 }
 .image-bg .btn.btn-filled,
 .image-bg .btn-filled:visited {

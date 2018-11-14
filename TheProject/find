@@ -1,0 +1,240 @@
+
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js></script>
+<script src=nav.js></script>
+<nav>
+  <h1>Menu</h1>
+  <ul>
+    <li>
+      <h2>Documents</h2>
+      <ul>
+        <li>
+          <h3>References</h3>
+          <ul>
+            <li>
+              <h4>Design</h4>
+              <ul>
+                <li><a href=#>Visual communication and art direction</a>
+                <li><a href=#>Designing with typefaces</a>
+                <li><a href=#>User experience design</a>
+                <li><a href=#>An introduction to grids</a>
+                <li><a href=#>Brand, logo design and identity</a>
+              </ul>
+            <li>
+              <h4>Web</h4>
+              <ul>
+                <li><a href=#>HTML5, CSS3 and JavaScript</a>
+                <li><a href=#>Choosing between SVG and Canvas</a>
+                <li><a href=#>An introduction to Mootools</a>
+                <li><a href=#>Build an accessible web app</a>
+              </ul>
+            <li>
+              <h4>Cocoa</h4>
+              <ul>
+                <li><a href=#>Apple's framework strategy</a>
+                <li><a href=#>Build a core data app</a>
+                <li><a href=#>Completion macros for Xcode</a>
+                <li><a href=#>Cocoa bindings intro</a>
+                <li><a href=#>Runtime method replacement</a>
+                <li><a href=#>C memory and arrays</a>
+                <li><a href=#>Using Carbon in Cocoa</a>
+              </ul>
+            <li>
+              <h4>Process</h4>
+              <ul>
+                <li><a href=#>Workflow and project management</a>
+                <li><a href=#>Getting things done</a>
+                <li><a href=#>Communicating with clients and colleagues</a>
+                <li><a href=#>Starting a new business</a>
+                <li><a href=#>Brainstorming and working with teams</a>
+              </ul>
+          </ul>
+        <li>
+          <h3>Books</h3>
+          <ul>
+            <li>
+              <h4>Sicence fiction</h4>
+              <ul>
+                <li><a href=#>The Imperfectionists: A Novel</a>
+                <li><a href=#>Matterhorn: A Novel of the Vietnam War</a>
+                <li><a href=#>The Passage</a>
+                <li><a href=#>The Girl Who Kicked the Hornet's Nest</a>
+                <li><a href=#>Just Kids</a>
+                <li><a href=#>The Big Short: Inside the Doomsday Machine</a>
+                <li><a href=#>1635: The Eastern Front</a>
+              </ul>
+            <li>
+              <h4>Romance</h4>
+              <ul>
+                <li><a href=#>Ship Breaker</a>
+                <li><a href=#>Where the God of Love Hangs Out: Fiction</a>
+                <li><a href=#>Rock Paper Tiger</a>
+                <li><a href=#>A Visit from the Goon Squad</a>
+                <li><a href=#>The Unnamed</a>
+                <li><a href=#>Anthropology of an American Girl</a>
+                <li><a href=#>So Cold the River</a>
+                <li><a href=#>The Hand That First Held Mine</a>
+                <li><a href=#>Major Pettigrew's Last Stand: A Novel</a>
+              </ul>
+            <li>
+              <h4>Entertainment</h4>
+              <ul>
+                <li><a href=#>Harry Potter Film Wizardry</a>
+                <li><a href=#>Al Jaffee's Mad Life: A Biography</a>
+                <li><a href=#>4TROOPS: The Mission is Music</a>
+              </ul>
+          </ul>
+        <li>
+          <h3>Magazines</h3>
+          <ul>
+            <li>
+              <h4>Business</h4>
+              <ul>
+                <li><a href=#>Advertising Age</a>
+                <li><a href=#>The Wall Street Journal</a>
+                <li><a href=#>Barron's</a>
+                <li><a href=#>Forbes</a>
+                <li><a href=#>Money</a>
+                <li><a href=#>SmartMoney</a>
+                <li><a href=#>Financial Times</a>
+                <li><a href=#>Marketing Management</a>
+                <li><a href=#>Home Business Magazine</a>
+              </ul>
+            <li>
+              <h4>Politics</h4>
+              <ul>
+                <li><a href=#>The New Yorker</a>
+                <li><a href=#>Vanity Fair</a>
+                <li><a href=#>Weekly Standard</a>
+                <li><a href=#>The Nation</a>
+                <li><a href=#>Newsmax</a>
+                <li><a href=#>Prospect - England</a>
+              </ul>
+            <li>
+              <h4>Sports</h4>
+              <ul>
+                <li><a href=#>Outside</a>
+                <li><a href=#>Sports Illustrated Kids</a>
+                <li><a href=#>Road &amp; Track</a>
+              </ul>
+          </ul>
+        <li>
+          <h3>Guidelines</h3>
+          <ul>
+            <li>
+              <h4>Mac OS X</h4>
+              <ul>
+                <li><a href=#>Introduction to HIG</a>
+                <li><a href=#>Application Design Fundamentals</a>
+                <li><a href=#>The Design Process</a>
+                <li><a href=#>Characteristics of Great Software</a>
+                <li><a href=#>Human Interface Design</a>
+                <li><a href=#>Prioritizing Design Decisions</a>
+                <li><a href=#>The Macintosh Experience</a>
+                <li><a href=#>The Mac OS X Environment</a>
+                <li><a href=#>Using Mac OS X Technologies</a>
+              </ul>
+            <li>
+              <h4>iPhone</h4>
+              <ul>
+                <li><a href=#>Planning Your iPhone Software Product</a>
+                <li><a href=#>The iPhone OS Platform</a>
+                <li><a href=#>Human Interface Principles</a>
+                <li><a href=#>From Product Definition to Branding</a>
+                <li><a href=#>Handling Common Tasks</a>
+              </ul>
+            <li>
+              <h4>iPad</h4>
+              <ul>
+                <li><a href=#>iPad overview</a>
+                <li><a href=#>Key iPad Features and Characteristics</a>
+                <li><a href=#>iPad User Experience Guidelines</a>
+                <li><a href=#>iPad UI Element Guidelines</a>
+              </ul>
+          </ul>
+
+      </ul>
+    <li>
+      <h2>Archives</h2>
+      <ul>
+        <li>
+          <h3>Articles</h3>
+          <ul>
+            <li><a href=#>Objective-C Garbage Collection 1</a>
+            <li><a href=#>Objective-C Garbage Collection 2</a>
+            <li><a href=#>Deciding What Kind of App to Write</a>
+            <li><a href=#>Cocoa Graphics Overview</a>
+            <li><a href=#>Sample Code for AddressBook</a>
+            <li><a href=#>Core Data: Forcing Changes</a>
+            <li><a href=#>Generic Programming</a>
+            <li><a href=#>Inline Array of NSSortDescriptors</a>
+            <li><a href=#>Delayed Messages</a>
+          </ul>
+        <li>
+          <h3>Pictures</h3>
+          <ul>
+            <li><a href=#>IMG3006.JPG</a>
+            <li><a href=#>IMG3007.JPG</a>
+            <li><a href=#>IMG3008.JPG</a>
+            <li><a href=#>IMG3009.JPG</a>
+            <li><a href=#>IMG3010.JPG</a>
+            <li><a href=#>IMG3011.JPG</a>
+            <li><a href=#>IMG3012.JPG</a>
+            <li><a href=#>IMG3013.JPG</a>
+            <li><a href=#>IMG3014.JPG</a>
+            <li><a href=#>IMG3015.JPG</a>
+          </ul>
+        <li>
+          <h3>iMovie projects</h3>
+          <ul>
+            <li><a href=#>learn-wordpress.mov</a>
+            <li><a href=#>webapp-screencast-advanced1.mov</a>
+            <li><a href=#>webapp-screencast-advanced2.mov</a>
+            <li><a href=#>kyle-birthday.mov</a>
+          </ul>
+      </ul>
+    <li>
+      <h2>Downloads</h2>
+      <ul>
+        <li>
+          <h3>Today</h3>
+          <ul>
+            <li><a href=#>ipad-template-final.psd</a>
+            <li><a href=#>Fall of Giants (The Century Trilogy).pdf</a>
+            <li><a href=#>Towers of Midnight (Wheel of Time).pdf</a>
+            <li><a href=#>soundtrack.mp3</a>
+          </ul>
+        <li>
+          <h3>Yesterday</h3>
+          <ul>
+            <li><a href=#>The Immortal Life of Henrietta Lacks.pdf</a>
+            <li><a href=#>contract.doc</a>
+            <li><a href=#>IMG3008.JPG</a>
+            <li><a href=#>IMG3008 (1).JPG</a>
+            <li><a href=#>template-html5.html</a>
+          </ul>
+        <li>
+          <h3>Past week</h3>
+          <ul>
+            <li><a href=#>snowboarding05.mov</a>
+            <li><a href=#>Wicked Appetite.pdf</a>
+            <li><a href=#>jquery-min.js</a>
+            <li><a href=#>funnycat.mov</a>
+            <li><a href=#>The Heroes of Olympus: The Lost Hero</a>
+          </ul>
+      </ul>
+    <li>
+      <h2>Articles</h2>
+      <ul>
+        <li><a href=#>Forward Thinking Form Validation</a>
+        <li><a href=#>The Look That Says Book</a>
+        <li><a href=#>Strategic Content Management</a>
+        <li><a href=#>Good Help is Hard to Find</a>
+        <li><a href=#>No One Nos: Learning to Say No to Bad Ideas</a>
+        <li><a href=#>Kick Ass Kickoff Meetings</a>
+        <li><a href=#>JavaScript Minification Part II</a>
+        <li><a href=#>SVG with a little help from Raphaël</a>
+        <li><a href=#>Stop Forking with CSS3</a>
+        <li><a href=#>Quick and Dirty Remote User Testing</a>
+      </ul>
+  </ul>
+</nav>

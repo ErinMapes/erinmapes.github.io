@@ -1,0 +1,51 @@
+
+
+  function createNode(element) {
+      return document.createElement(element);
+  }
+
+  function append(parent, el) {
+    return parent.appendChild(el);
+  }
+
+  const ul = document.getElementById('files');
+  const url = 'https://launchpadapi.mediafly.com/3/items?productId=201458d47426431b827dd10b7448a0ab&accessToken=468c740cedfb464caf6064ee28dcaebe&accessType=view';
+  fetch(url)
+  .then((resp) => resp.json())
+  .then(function(data) {
+    //title, thumbnail, description, created date, modified date, and modified by
+    let files = data.response.items;
+    return files.map(function(file) {
+      let rootli = createNode('li')
+          roottitle = createNode('span')
+          nestedul = createNode ('ul')
+          li = createNode('li'),
+          title = createNode('div')
+          thumbnail = createNode('img'),
+          description = createNode('span');
+          div = createNode('div');
+      roottitle.innerHTML = `${file.title}` 
+      description.className = "metadata"
+      thumbnail.src = file.thumbnail.url;
+      title.innerHTML = `<strong>${file.title}</strong>` 
+//TODO: Make dates pretty
+      description.innerHTML = `${file.description} <br />  Created: ${file.created} <br /> Modified: ${file.modified}  ${file.modifiedBy}`
+      
+      append(ul, rootli); 
+      append(rootli, roottitle);
+      append(rootli, nestedul);
+      append(nestedul, li)
+      append(li, thumbnail);
+      append(li, title);
+      append(li, description);
+
+      append(li, div);
+
+
+
+
+    })
+  })
+  .catch(function(error) {
+    console.log(JSON.stringify(error));
+  });   

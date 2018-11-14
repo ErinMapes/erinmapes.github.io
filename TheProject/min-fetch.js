@@ -31,15 +31,6 @@
 //TODO: Make dates pretty
       description.innerHTML = `${file.description} <br />  Created: ${file.created} <br /> Modified: ${file.modified}  by ${file.modifiedBy}`
       
-      append(ul, rootli); 
-      append(rootli, roottitle);
-      append(rootli, nestedul);
-      append(nestedul, li)
-      append(li, thumbnail);
-      append(li, title);
-      append(li, description);
-
-      append(li, div);
 
 
 
